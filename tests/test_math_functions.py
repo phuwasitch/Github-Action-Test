@@ -14,7 +14,7 @@ class TestMathFunctions(unittest.TestCase):
         self.assertEqual(subtract(5, 3), 2)
         self.assertEqual(subtract(10, 5), 5)
         self.assertEqual(subtract(0, 0), 0)
-        self.assertEqual(subtract(3, 5), -1)
+        self.assertEqual(subtract(3, 5), -2)
 
 if __name__ == '__main__':
     unittest.main()
